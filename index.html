@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Delivery App</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Amina Project</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background-color: #f8f9fa; padding: 20px; text-align: center; }
-        h1 { color: #333; }
-        p { color: #666; }
-        footer { text-align: center; padding: 10px; background-color: #f8f9fa; position: fixed; bottom: 0; width: 100%; }
-    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Amina Project</h1>
-        <p>Explore the features and updates of our project.</p>
+        <h1>Delivery App</h1>
+        <div id="auth-status">User Status: Logged In</div>
     </header>
     <main>
-        <section>
-            <h2>Features</h2>
-            <ul>
-                <li>Feature 1: Description</li>
-                <li>Feature 2: Description</li>
-                <li>Feature 3: Description</li>
-            </ul>
+        <section id="geolocation">
+            <h2>Your Location</h2>
+            <div id="location-info">Fetching location...</div>
+        </section>
+        <section id="order-tracking">
+            <h2>Order Tracking</h2>
+            <div id="order-status">Order status will be displayed here.</div>
         </section>
     </main>
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+    </nav>
     <footer>
-        <p>&copy; 2026 Amina Project. All rights reserved.</p>
+        <p>&copy; 2026 Delivery App</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
